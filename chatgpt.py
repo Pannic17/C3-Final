@@ -1,4 +1,4 @@
-# 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
+
 
 import os
 import openai
@@ -63,11 +63,10 @@ def image_scene(chinese, translate):
         system_role="You are a creative and imaginary chinese artist",
     )
 
-imaginary = image_scene("關關雎鳩、在河之洲。窈宨淑女、君子好逑。參差荇菜、左右流之。窈宨淑女、寤寐求之。求之不得、寤寐思服。悠哉悠哉、輾轉反側。參差荇菜、左右采之。窈宨淑女、琴瑟友之。參差荇菜、左右芼之。窈宨淑女、 鍾鼓樂之。",
-            "Guan-guan go the ospreys, On the islet in the river. The modest, retiring, virtuous, young lady, For our prince a good mate she." +
-            "Here long, there short, is the duckweed, To the left, to the right, borne about by the current. The modest, retiring, virtuous, young lady, Waking and sleeping, he sought her." +
-            "He sought her and found her not , And waking and sleeping he thought about her . Long he thought ; oh ! long and anxiously ; On his side , on his back , he turned , and back again ." +
-            "Here long, there short, is the duckweed; On the left, on the right, we gather it.The modest, retiring, virtuous, young lady; With lutes, small and large, let us give her friendly welcome.")
+chinese = "桃之夭夭、灼灼其華。之子于歸、宜其家室。桃之夭夭、有蕡其實。之子于歸、宜其室家。桃之夭夭、其葉蓁蓁。之子于歸、宜其家人"
+english = "The peach tree is young and elegant; Brilliant are its flowers. This young lady is going to her future home, And will order well her chamber and house. The peach tree is young and elegant; Abundant will be its fruits. This young lady is going to her future home, And will order well her chamber and house. The peach tree is young and elegant; Luxuriant are its leaves. This young lady is going to her future home, And will order well her family."
+
+imaginary = image_scene(chinese, english)
 imaginary = "shijng  a drawing of" + imaginary
 
 print(imaginary)

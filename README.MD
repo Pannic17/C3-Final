@@ -4,7 +4,8 @@ An experiment of using AI to understand ancient Chinese Poem and reconstruct pai
 
 Jiangyun Pan 22044483
 
-**Trained Weight** https://1drv.ms/f/s!Ag4vhDewz-hXjuYqpj177UZzzQPAJw?e=iwd5rM 
+**Trained Weight** 
+https://1drv.ms/f/s!Ag4vhDewz-hXjuYqpj177UZzzQPAJw?e=iwd5rM 
 
 GitHub Repository: [https://github.com/Pannic17/C3-Final](https://github.com/Pannic17/C3-Final)
 

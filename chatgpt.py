@@ -67,7 +67,7 @@ chinese = "桃之夭夭、灼灼其華。之子于歸、宜其家室。桃之夭
 english = "The peach tree is young and elegant; Brilliant are its flowers. This young lady is going to her future home, And will order well her chamber and house. The peach tree is young and elegant; Abundant will be its fruits. This young lady is going to her future home, And will order well her chamber and house. The peach tree is young and elegant; Luxuriant are its leaves. This young lady is going to her future home, And will order well her family."
 
 imaginary = image_scene(chinese, english)
-imaginary = "shijng  a drawing of" + imaginary
+imaginary = "shijing a drawing of " + imaginary
 
 print(imaginary)
 
